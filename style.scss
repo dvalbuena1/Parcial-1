@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+$lato: "Lato", sans-serif;
+
+body {
+  font-family: $lato;
+  background-color: #e5e5e5;
+}
+
+nav {
+  background: linear-gradient(
+    270deg,
+    #745ece 0%,
+    rgba(105, 72, 237, 0.41) 47.4%,
+    #5e63c8 82.29%
+  );
+
+  margin-bottom: 77px;
+}
+
+#searchButton {
+  background-color: #e5e5e5;
+  height: 47px;
+  width: 56px;
+  padding: 6px 10px 5px 10px;
+}
+
+#liveToast{
+  color: white;
+}
+.form-control {
+  margin: 0px 0px 0px 247px;
+  width: 836px;
+  height: 47px;
+}
+
+#logo {
+  margin: 0px 0px 0px 100px;
+}
+
+#favorite {
+  margin: 0px 21px 0px 35px;
+}
+
+.card {
+  position: relative;
+  width: 1240px;
+  height: 221px;
+  margin: 0px 100px 0px 100px;
+
+  .imgProduct {
+    height: 180px;
+    width: 180px;
+    margin: 30px 0px 11px 44px;
+  }
+
+  .title {
+    position: absolute;
+    left: 348px;
+    top: 112px;
+    width: 500px;
+    font-size: 18px;
+  }
+
+  .price {
+    position: absolute;
+    left: 348px;
+    top: 30px;
+    width: 150px;
+    font-size: 24px;
+  }
+
+  .shipping {
+    position: absolute;
+    left: 498px;
+    top: 34px;
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+  }
+
+  .city {
+    position: absolute;
+    left: 1011px;
+    top: 30px;
+    width: 150px;
+    font-size: 14px;
+  }
+}
+
+.breadcrumb {
+  position: absolute;
+  top: 114px;
+  left: 99px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 67%);
+}
+
+.content {
+  position: relative;
+  width: 1240px;
+  margin: 0px 100px 30px 100px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+
+  .img-detail {
+    position: absolute;
+    width: 563px;
+    height: 520px;
+    left: 50px;
+    top: 54px;
+  }
+
+  .title-decription {
+    position: absolute;
+    left: 50px;
+    top: 597px;
+    font-size: 28px;
+  }
+
+  .description {
+    position: absolute;
+    left: 50px;
+    top: 651px;
+    font-size: 14px;
+    color: #b8acac;
+    width: 828px;
+    text-align: justify;
+  }
+
+  .extraInfo {
+    position: absolute;
+    left: 878px;
+    top: 54px;
+    font-size: 14px;
+    width: 312px;
+  }
+
+  .title {
+    position: absolute;
+    left: 878px;
+    top: 120px;
+    width: 312px;
+    font-size: 24px;
+  }
+
+  .price {
+    position: absolute;
+    left: 878px;
+    top: 177px;
+    font-size: 24px;
+  }
+
+  .buyBtn {
+    position: absolute;
+    left: 878px;
+    top: 258px;
+    height: 51px;
+    width: 312px;
+    font-size: 24px;
+    color: white;
+    background-color: #c968cb;
+    border-radius: 20px;
+  }
+
+  .favBtn {
+    position: absolute;
+    left: 878px;
+    top: 327px;
+    height: 51px;
+    width: 312px;
+    font-size: 24px;
+    color: white;
+    background-color: #8c86d7;
+    border-radius: 20px;
+  }
+}
+.modal-content{
+  height: 364px;
+  width: 578px;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  p {
+    font-size: 20px;
+    vertical-align: middle;
+    margin: 0px 70px 0px 70px;
+  }
+  b {
+    font-size: 24px;
+    vertical-align: middle;
+    margin: 0px 133px 0px 133px;
+  }
+}
+.btn-close-modal{
+  border-radius: 20px;
+  width: 145px;
+  height: 51px;
+  font-size: 24px;
+  color: white;
+  background-color: #8C86D7;
+}
+
+.titleFavorite {
+  position: absolute;
+  top: 104px;
+  left: 100px;
+  font-size: 28px;
+}
+
+.headerFav {
+  position: relative;
+  top: 10px;
+  margin: 0px 100px 0px 100px;
+  height: 89px;
+  width: 1240px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+
+  .form-check-input {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .deleteBtn {
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    height: 51px;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+    background-color: #ece9e9;
+    border-radius: 20px;
+    padding-top: 10px;
+  }
+}
+
+.favList {
+  position: relative;
+  margin: 0px 100px 0px 100px;
+  height: 221px;
+  width: 1240px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+
+  .imgList {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    height: 180px;
+  }
+
+  .form-check-input {
+    position: absolute;
+    top: 92px;
+    left: 40px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .title {
+    position: absolute;
+    left: 348px;
+    top: 112px;
+    width: 500px;
+    font-size: 18px;
+  }
+
+  .price {
+    position: absolute;
+    left: 348px;
+    top: 30px;
+    width: 150px;
+    font-size: 24px;
+  }
+
+  .shipping {
+    position: absolute;
+    left: 498px;
+    top: 34px;
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+  }
+
+  .openBtn {
+    position: absolute;
+    top: 67px;
+    left: 984px;
+    height: 51px;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+    background-color: #c968cb;
+    border-radius: 20px;
+    padding-top: 10px;
+  }
+}
